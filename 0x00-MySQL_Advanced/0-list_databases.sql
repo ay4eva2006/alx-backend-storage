@@ -1,0 +1,6 @@
+Enter password:987654321
+Database
+information_schema
+mysql
+performance_schema
+sys
