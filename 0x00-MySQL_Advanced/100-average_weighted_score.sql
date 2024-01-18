@@ -4,6 +4,7 @@
 DELIMITER //
 
 -- Create the stored procedure
+DROP FUNCTION IF EXISTS ComputeAverageWeightedScoreForUsers;
 CREATE PROCEDURE ComputeAverageWeightedScoreForUser(IN user_id INT)
 BEGIN
     DECLARE total_weighted_score FLOAT;
