@@ -1,7 +1,7 @@
 -- create_stored_procedure.sql
 
 -- Define the delimiter to handle semicolons within the procedure
-DELIMITER //
+DELIMITER $$
 
 -- Create the stored procedure
 DROP FUNCTION IF EXISTS ComputeAverageWeightedScoreForUsers;
@@ -25,7 +25,7 @@ BEGIN
         VALUES (user_id, @average_weighted_score)
         ON DUPLICATE KEY UPDATE average_score = @average_weighted_score;
     END IF;
-END //
+END $$
 
 -- Reset the delimiter back to semicolon
 DELIMITER ;
