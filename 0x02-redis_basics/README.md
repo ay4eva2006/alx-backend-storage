@@ -1,4 +1,4 @@
-# Redis Basics and Cache Implementation
+ Redis Basics and Cache Implementation
 
 This project is a practical guide to using Redis for basic operations and implementing Redis as a simple cache. Learn how to harness the power of Redis for efficient data storage and retrieval.
 
